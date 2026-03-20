@@ -87,8 +87,8 @@ def remove_extra_chars(text_data: str, extra_chars) -> str:
 
 # EXAMPLE
 
-filepath1 = "/home/alexey/IT/Experiment_text_generator/data/EugeneOnegin.txt"
-filepath2 = "/home/alexey/IT/Experiment_text_generator/data/SherlockHolmes.txt"
+filepath1 = "EugeneOnegin.txt"
+filepath2 = "SherlockHolmes.txt"
 
 text_data = remove_extra_chars(get_data(filepath1).lower(), RECOMMENDED_EXTRA_CHARS) \
     + f" {remove_extra_chars(get_data(filepath2).lower(), RECOMMENDED_EXTRA_CHARS)}"
