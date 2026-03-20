@@ -30,7 +30,7 @@ Here I have added the work "Sherlock Holmes" for more possible tokens. Also, I l
 
 ### Conclution
 
-* I was able to make a program that anticipates subsequent characters!
+* I was able to make a program that predicts next letters!
 
 * I realized what Shannon did: the longer the length of the initial token, the more meaningful the answer will be.
 
