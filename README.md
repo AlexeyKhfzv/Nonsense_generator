@@ -1,10 +1,10 @@
 <h1 align="center">Nonsense generator</h1>  
 
-### What is this?
+### What Is This?
 
 Here I tried to make a word generator based on [Markov's chains](https://youtu.be/QI7oUwNrQ34?is=i0-eFHqMbeuu5OPh). The creator of the idea is [Claude Shannon](https://en.wikipedia.org/wiki/Claude_Shannon) (if I understood it correctly).
 
-### How does it work?
+### How Does It Work?
 
 **Firstly**, the program reads very huge text with lots of words.  
 **Secondly**, for each set of characters, it calculates the probability which particular letter will be next. For convenience, I will call this set of characters a token.  
@@ -33,3 +33,7 @@ Here I have added the work "Sherlock Holmes" for more possible tokens. Also, I l
 * I was able to make a program that anticipates subsequent characters!
 
 * I realized what Shannon did: the longer the length of the initial token, the more meaningful the answer will be.
+
+### Special Thanks
+
+
