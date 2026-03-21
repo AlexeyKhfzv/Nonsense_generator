@@ -28,10 +28,9 @@ Here I added the initial token, which will be used to generate the next letter. 
 ![Experiment_3](Experiment_3.png)
 Here I have added the work "Sherlock Holmes" for more possible tokens. Also, I left whitespaces in the text. As a result I got a text, in which there are very meaningful chains of words. File: [generator2.py]().
 
-### Conclution
+### Conclusion
 
 * I was able to make a program that predicts the following letters!
-
 * I realized what Shannon did: the longer the length of the initial token, the more meaningful the answer will be.
 
 ### Special Thanks
