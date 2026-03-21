@@ -13,7 +13,7 @@ Here I tried to make a word generator based on [Markov's chains](https://youtu.b
 ### Experiment N°1
 
 ![Experiment_1](Experiment_1.png)  
-As the text I took the work of Alexander Sergeevich Pushkin "Eugene Onegin". Then I formatted it (removed unnecessary symbols like '!', ';' and more). The result I received consists of 30 most likely characters (File: [generator1.py]()).
+As the text I took the work of Alexander Sergeevich Pushkin "Eugene Onegin". Then I formatted it (removed unnecessary symbols like '!', ';' and more). The result I received consists of 30 most likely characters (file: [generator1.py]()).
 
 ### Experiment N°2
 
