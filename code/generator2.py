@@ -90,8 +90,11 @@ def remove_extra_chars(text_data: str, extra_chars) -> str:
 filepath1 = "EugeneOnegin.txt"
 filepath2 = "SherlockHolmes.txt"
 
-text_data = remove_extra_chars(get_data(filepath1).lower(), RECOMMENDED_EXTRA_CHARS) \
-    + f" {remove_extra_chars(get_data(filepath2).lower(), RECOMMENDED_EXTRA_CHARS)}"
+# text_data = remove_extra_chars(get_data(filepath1).lower(), RECOMMENDED_EXTRA_CHARS) \
+#     + " " + remove_extra_chars(get_data(filepath2).lower(), RECOMMENDED_EXTRA_CHARS)"
+
+text_data = get_data(filepath1).lower() \
+    + " " + get_data(filepath2).lower()
 
 input_word = remove_extra_chars(input("Enter word: "), RECOMMENDED_EXTRA_CHARS)
 print(generate_text(100, input_word, text_data))
